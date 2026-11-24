@@ -1,0 +1,65 @@
+{
+  "type": "footer",
+  "name": "t:names.footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "menus_toggle": true,
+        "footer_payments_show": true,
+        "footer_shipping_show": true,
+        "background_color": "#640085",
+        "text_color": "#ffffff",
+        "vertical_padding": 12
+      },
+      "blocks": {
+        "institutional": {
+          "type": "footer-institutional",
+          "disabled": true,
+          "settings": {
+            "description": "t:defaults.footer.description"
+          }
+        },
+        "menu_1": {
+          "type": "footer-menu",
+          "disabled": true,
+          "settings": {
+            "title": "t:defaults.footer.menu_1_title",
+            "menu": "navigation"
+          }
+        },
+        "menu_2": {
+          "type": "footer-menu",
+          "settings": {
+            "title": "t:defaults.footer.menu_2_title",
+            "menu": "navigation"
+          }
+        },
+        "menu_3": {
+          "type": "footer-menu",
+          "settings": {
+            "menu": "institucional",
+            "title": "Ajuda"
+          }
+        },
+        "newsletter": {
+          "type": "footer-newsletter",
+          "settings": {
+            "title": "Newsletter",
+            "description": "Receba ofertas exclusivas e novidades diretamente no seu email."
+          }
+        }
+      },
+      "block_order": [
+        "institutional",
+        "menu_1",
+        "menu_2",
+        "menu_3",
+        "newsletter"
+      ]
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

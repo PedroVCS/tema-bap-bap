@@ -1,0 +1,236 @@
+{
+  "type": "header",
+  "name": "t:names.header",
+  "sections": {
+    "navigation_bar_top": {
+      "type": "navigation-bar",
+      "settings": {
+        "background_color": "#ffd312",
+        "text_color": "#000000",
+        "section_width": "full",
+        "custom_css": "",
+        "item_gap": 4,
+        "vertical_padding": 10,
+        "horizontal_padding": 36,
+        "mobile_placement": "menu"
+      },
+      "blocks": {
+        "nav_announcements": {
+          "type": "nav-announcements",
+          "settings": {
+            "alignment": "center",
+            "gap": 36
+          },
+          "blocks": {
+            "announcement_1": {
+              "type": "announcement",
+              "disabled": false,
+              "settings": {
+                "text": "t:defaults.announcements.announcement_1"
+              }
+            },
+            "announcement_2": {
+              "type": "announcement",
+              "disabled": false,
+              "settings": {
+                "text": "t:defaults.announcements.announcement_2"
+              }
+            },
+            "announcement_jwx1": {
+              "type": "announcement",
+              "disabled": false,
+              "settings": {
+                "text": "5% OFF NA PRIMEIRA COMPRA "
+              }
+            }
+          },
+          "block_order": [
+            "announcement_1",
+            "announcement_2",
+            "announcement_jwx1"
+          ]
+        },
+        "nav_social": {
+          "type": "nav-social",
+          "disabled": false,
+          "settings": {
+            "alignment": "right",
+            "gap": 16
+          }
+        }
+      },
+      "block_order": [
+        "nav_announcements",
+        "nav_social"
+      ],
+      "disabled": false
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "section_width": "full",
+        "horizontal_padding": 40,
+        "use_different_mobile_padding": true,
+        "text_color": "#FFFFFF",
+        "logo_position_desktop": "center",
+        "nav_position_desktop": "below_logo",
+        "custom_css": "",
+        "background_color": "#640085",
+        "vertical_padding": 0,
+        "transparent_header": false,
+        "vertical_padding_mobile": 0,
+        "horizontal_padding_mobile": 0
+      },
+      "blocks": {
+        "logo": {
+          "type": "header-logo",
+          "settings": {
+            "use_different_mobile_height": true,
+            "height": 86,
+            "height_mobile": 72
+          }
+        },
+        "utilities": {
+          "type": "header-utilities",
+          "settings": {
+            "format": "icons_text",
+            "search_type": "expanded",
+            "cart_icon": "cart",
+            "icon_size": 24,
+            "use_different_mobile_size": true,
+            "icon_size_mobile": 24,
+            "items_gap": 18,
+            "show_account_mobile": true,
+            "icon_foreground_color": "#FFFFFF"
+          }
+        },
+        "navigation": {
+          "type": "header-navigation",
+          "settings": {
+            "nav_alignment_desktop": "left",
+            "nav_divider_color": "#E3E3E3",
+            "show_secondary_menu": true,
+            "foreground_color": "#FFFFFF",
+            "nav_uppercase": true,
+            "show_categories_link": false,
+            "show_mobile_categories": false,
+            "vertical_padding": 10
+          }
+        }
+      },
+      "block_order": [
+        "logo",
+        "utilities",
+        "navigation"
+      ]
+    },
+    "navigation_bar_bottom": {
+      "type": "navigation-bar",
+      "settings": {
+        "mobile_placement": "menu",
+        "section_width": "page",
+        "item_gap": 32,
+        "vertical_padding": 32,
+        "horizontal_padding": 32,
+        "background_color": "#f7f7f7",
+        "text_color": "#664d3a"
+      },
+      "blocks": {
+        "nav_announcements": {
+          "type": "nav-announcements",
+          "settings": {
+            "gap": 76
+          },
+          "blocks": {
+            "announcement_1": {
+              "type": "announcement",
+              "settings": {
+                "text": "t:defaults.announcements.announcement_1"
+              }
+            },
+            "announcement_2": {
+              "type": "announcement",
+              "settings": {
+                "text": "t:defaults.announcements.announcement_2"
+              }
+            },
+            "announcement_3": {
+              "type": "announcement",
+              "settings": {
+                "text": "t:defaults.announcements.announcement_3"
+              }
+            },
+            "announcement_4": {
+              "type": "announcement",
+              "settings": {
+                "text": "t:defaults.announcements.announcement_4"
+              }
+            }
+          },
+          "block_order": [
+            "announcement_1",
+            "announcement_2",
+            "announcement_3",
+            "announcement_4"
+          ]
+        }
+      },
+      "block_order": [
+        "nav_announcements"
+      ],
+      "disabled": true
+    },
+    "announcement-bar_1793975383207": {
+      "type": "announcement-bar",
+      "settings": {
+        "animation": "slider",
+        "section_width": "full",
+        "horizontal_padding": 32,
+        "background_color": "#ffd312",
+        "text_color": "#000000",
+        "slider_speed": 6,
+        "vertical_padding": 10
+      },
+      "blocks": {
+        "announcement_mkn6": {
+          "type": "announcement",
+          "settings": {
+            "text": "Envio para todo o país"
+          }
+        },
+        "announcement_vdz0": {
+          "type": "announcement",
+          "settings": {
+            "text": "5% OFF NA PRIMEIRA COMPRA "
+          }
+        },
+        "announcement_j8h4": {
+          "type": "announcement",
+          "settings": {
+            "text": "EM ATÉ 12 PARCELAS "
+          }
+        },
+        "announcement_yoso": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Envio para todo o país"
+          }
+        }
+      },
+      "block_order": [
+        "announcement_mkn6",
+        "announcement_vdz0",
+        "announcement_j8h4",
+        "announcement_yoso"
+      ],
+      "disabled": true
+    }
+  },
+  "order": [
+    "navigation_bar_top",
+    "announcement-bar_1793975383207",
+    "header",
+    "navigation_bar_bottom"
+  ]
+}
